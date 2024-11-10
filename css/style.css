@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: #8dc63f;
+    font-size: 14px;
+    color: #343434;
+    font-family: "Arial";
+}
+
+.wrapper{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 15px;
+    max-width: 960px ;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.to{
+    color: #39930d;
+    display: block; 
+    font-size: 44px;
+    padding: 12px 0px;
+}
+.logo{
+    display: flex;
+}
+.number{
+    color: #39930d;
+    font-size: 22px;
+    text-align: right;
+}
+.logo i,
+.color-i{
+    color: #5a5a5a;
+}
+.color-i{
+    text-align: right;
+}
+.football{
+    font-size: 22px;
+    color: #39930d;
+}
+.logo p{
+    margin: 0px;
+    margin-right: 33px;
+}
+.main{
+display: flex;
+justify-content: space-between;
+}
+.scope{
+    max-width: 595px;
+}
+.JOL{
+    color: #39930d;
+    font-size: 24px;
+}
+.FOM{
+    margin: 0;
+    color: #39930d;
+    list-style: none;
+    padding: 0px;
+}
+.goll a{
+   display: block;
+   color: #39930d;
+   line-height: 2.1em;
+   text-transform: uppercase;
+   transition: all 1s ease;
+}
+.goll a:hover{
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+    background-color: #faee00;
+}
+.goll p{
+    padding: 15px 20px 10px ;
+    font-size: 18px;
+    color: rgb(255, 255, 255); 
+    background-color: #39930d;
+}
+.pol{
+    color: #fff;
+    background-color: #39930d;
+    margin: 0 -15px ;
+    padding: 17px 15px 15px;
+}
+.goll{
+    width: 300px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease;
+    z-index: 2;
+}
+.img:hover{
+padding-left: 300px;
+}
+.gols{
+z-index: 0;
+}
