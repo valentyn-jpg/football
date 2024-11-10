@@ -106,3 +106,7 @@ padding-left: 300px;
 .gols{
 z-index: 0;
 }
+.gols img{
+    display: block;
+    width: 100%;
+}
