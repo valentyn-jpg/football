@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 .to{
     color: #39930d;
@@ -50,6 +51,7 @@ body{
 .main{
 display: flex;
 justify-content: space-between;
+flex-wrap:wrap;
 }
 .scope{
     max-width: 595px;
